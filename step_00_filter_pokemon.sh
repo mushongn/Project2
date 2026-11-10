@@ -1,4 +1,4 @@
 #! /bin/bash
 
-awk -F',' '$1 < 152 && $1 > 0 && $2 !~ /Mega/' all_pokemon.csv
+awk -F',' '$1 < 152 && $1 > 0 && $2 !~ /Mega/' all_pokemon.csv > pokemon_filtered.csv
 
